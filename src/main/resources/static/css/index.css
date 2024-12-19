@@ -16,7 +16,14 @@ body {
 
 .gronnLogoBilde {
     width: 60px;
+    width: 60px;
     height: auto;
+}
+
+.sloganOgLadeBilde {
+    display: flex;
+    align-items: flex-start;
+    gap: 175px;
 }
 
 .slogan {
@@ -24,4 +31,24 @@ body {
     font-size: 4.0rem;
     width: 500px;
     line-height: 90px;
+}
+
+.ladekabelerBilde {
+    border-width: 20px;
+    border-radius: 100px;
+    border-color: white;
+    border-style: double;
+    width: 750px;
+    height: auto;
+}
+
+.knappLesMer {
+    font-size: 1.75rem;
+    font-weight: bold;
+    background-color: inherit;
+    padding: 35px 70px;
+    border: none;
+    border-radius: 40px;
+    background-color: #b4e41d;
+    color: inherit;
 }
