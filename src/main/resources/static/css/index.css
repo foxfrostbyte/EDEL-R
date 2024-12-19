@@ -2,3 +2,26 @@ body {
     color: white;
     background-color:lightseagreen;
 }
+
+.edelOgLogo {
+    display: flex;
+    align-items: center;
+}
+
+.edelTekst {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.gronnLogoBilde {
+    width: 60px;
+    height: auto;
+}
+
+.slogan {
+    margin-top: 120px;
+    font-size: 4.0rem;
+    width: 500px;
+    line-height: 90px;
+}
