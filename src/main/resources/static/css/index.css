@@ -1,6 +1,18 @@
+/* Base-design for enheter med minst bredde på 320px: */
+/* Følger anbefalt "mobile-first" approach. */
 body {
+    font-family: "Tahoma", "Roboto", "Helvetica", "Arial", sans-serif;
     color: white;
-    background-color:lightseagreen;
+    background-color: lightseagreen;
+    margin: 5% 5%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 5%;
 }
 
 .edelOgLogo {
@@ -16,39 +28,37 @@ body {
 
 .gronnLogoBilde {
     width: 60px;
-    width: 60px;
     height: auto;
 }
 
-.sloganOgLadeBilde {
-    display: flex;
-    align-items: flex-start;
-    gap: 175px;
+.dropdown {
+    position: relative;
 }
 
-.slogan {
-    margin-top: 120px;
-    font-size: 4.0rem;
-    width: 500px;
-    line-height: 90px;
-}
-
-.ladekabelerBilde {
-    border-width: 20px;
-    border-radius: 100px;
-    border-color: white;
-    border-style: double;
-    width: 750px;
-    height: auto;
-}
-
-.knappLesMer {
-    font-size: 1.75rem;
+.dropdownKnapp {
+    font-size: 1.50rem;
     font-weight: bold;
     background-color: inherit;
-    padding: 35px 70px;
-    border: none;
-    border-radius: 40px;
-    background-color: #b4e41d;
     color: inherit;
+    border: none;
+    border-radius: 5px;
+}
+
+.sideLinker {
+    display: none;
+    position: absolute;
+}
+
+.sideLinker a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 5px;
+    display: block;
+}
+
+.dropdown:hover .sideLinker {display: block;}
+
+.ladekabelerBilde {
+    display: none;
 }
