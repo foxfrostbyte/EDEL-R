@@ -1,6 +1,6 @@
 // Viser "overlay" når meny-knapp blir trykket
 document.querySelector(".enterNavigasjon").addEventListener("click", () => {
-    document.querySelector(".navigasjon").style.display="block";
+    document.querySelector(".navigasjon").style.display="flex";
 });
 
 // Fjerner "overlay" og går tilbake til hjemmeside
