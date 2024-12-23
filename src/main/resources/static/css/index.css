@@ -3,7 +3,7 @@
 body {
     font-family: "Tahoma", "Roboto", "Helvetica", "Arial", sans-serif;
     color: white;
-    background-color: lightseagreen;
+    background-color: #179a92;
     margin: 5% 10%;
 }
 
@@ -70,7 +70,7 @@ header {
     gap: 2.75rem;
 }
 
-.navigasjon nav a {d
+.navigasjon nav a {
     font-weight: bold;
     font-size: 1.75rem;
     color: inherit;
@@ -104,7 +104,7 @@ header {
 .knappLesMer {
     font-size: 1.25rem;
     font-weight: bold;
-    color: inherit;
+    color: #11837c;
     background-color: #b4e41d;
     padding: 25px 23px;
     border-radius: 3px 20px 3px 20px;
