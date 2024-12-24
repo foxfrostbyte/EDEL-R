@@ -97,14 +97,15 @@ header {
 
 .slogan {
     font-size: 2.75rem;
-    max-width: 500px;
+    max-width: 400px;
     margin-top: 35px;
+    margin-bottom: 60px;
 }
 
 .knappLesMer {
     font-size: 1.25rem;
     font-weight: bold;
-    color: #11837c;
+    color: #0c6862;
     background-color: #b4e41d;
     padding: 25px 23px;
     border-radius: 3px 20px 3px 20px;
@@ -113,4 +114,27 @@ header {
 
 .ladekabelerBilde {
     display: none;
+}
+
+/* For tablets/desktops: */
+@media (min-width: 1025px) {
+    .enterNavigasjon {
+        display: none;
+    }
+
+    .navigasjon {
+        display: flex;
+        position: static;
+        width: auto;
+        min-height: auto;
+    }
+
+    .navigasjon nav {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        min-height: auto;
+        width: auto;
+        gap: 2rem;
+    }
 }
