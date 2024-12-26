@@ -10,7 +10,15 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    align-content: center;
+    width: 100%;
+    height: 2.5rem;
 }
 
 .edelOgLogo {
@@ -54,15 +62,15 @@ header {
     width: 100vw;
     min-height:100vh;
 
-    background-color: inherit;
+    background-color: #179991;
     z-index: 9999;
     box-sizing: border-box;
     overflow-y: auto;
+    flex-direction: column;
 }
 
 .navigasjon nav {
-    width: 100vw;
-    min-height:100vh;
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,6 +83,14 @@ header {
     font-size: 1.75rem;
     color: inherit;
     text-decoration: none;
+}
+
+.overlayHeader {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100vw;
+    height: 5rem;
 }
 
 .exitNavigasjon {
@@ -122,11 +138,16 @@ header {
         display: none;
     }
 
+    .exitNavigasjon {
+        display: none;
+    }
+
     .navigasjon {
         display: flex;
         position: static;
         width: auto;
         min-height: auto;
+        overflow: visible;
     }
 
     .navigasjon nav {
@@ -136,5 +157,9 @@ header {
         min-height: auto;
         width: auto;
         gap: 2rem;
+    }
+
+    .navigasjon nav a {
+        font-size: 1.5rem;
     }
 }
