@@ -22,7 +22,6 @@ footer {
 }
 
 .edelOgLogo {
-    margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
@@ -142,24 +141,33 @@ footer {
         display: none;
     }
 
+    header {
+        width: auto;
+    }
+
     .navigasjon {
         display: flex;
         position: static;
         width: auto;
         min-height: auto;
+        background: none;
+        margin: 0;
+        padding: 0;
         overflow: visible;
     }
 
     .navigasjon nav {
+        display: flex;
         flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-        min-height: auto;
-        width: auto;
-        gap: 2rem;
+        gap: 3rem;
     }
 
     .navigasjon nav a {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
+    }
+
+    .overlayHeader {
+        width: auto;
+        height: auto;
     }
 }
