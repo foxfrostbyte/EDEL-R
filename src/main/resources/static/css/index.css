@@ -4,21 +4,13 @@ body {
     font-family: "Tahoma", "Roboto", "Helvetica", "Arial", sans-serif;
     color: white;
     background-color: #179a92;
-    margin: 5% 10%;
+    margin: 0%;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-}
-
-footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    align-content: center;
-    width: 100%;
-    height: 2.5rem;
+    margin: 5% 10%;
 }
 
 .edelOgLogo {
@@ -28,7 +20,7 @@ footer {
 }
 
 .edelTekst {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-decoration: none;
     color: inherit;
 }
@@ -111,9 +103,9 @@ footer {
 }
 
 .slogan {
-    font-size: 2.75rem;
-    max-width: 400px;
-    margin-top: 35px;
+    font-size: 3.8rem;
+    max-width: 450px;
+    margin-top: 80px;
     margin-bottom: 60px;
 }
 
@@ -129,6 +121,24 @@ footer {
 
 .ladekabelerBilde {
     display: none;
+}
+
+.mainSeksjon1 {
+    margin: 5% 10%;
+}
+
+.mainSeksjon2 {
+    width: 100%;
+    margin-top: 150px;
+    padding-top: 100px;
+    background-color: white;
+}
+
+.dameHundBilde {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 50px;
 }
 
 /* For tablets/desktops: */
