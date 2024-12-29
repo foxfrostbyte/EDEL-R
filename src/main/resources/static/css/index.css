@@ -128,10 +128,22 @@ header {
 }
 
 .mainSeksjon2 {
+    color: #179991;
     width: 100%;
     margin-top: 150px;
     padding-top: 100px;
+    padding-bottom: 100px;
     background-color: white;
+}
+.seksjon2Tittel {
+    font-size: 2rem;
+    margin: 12% 10%;
+}
+
+.seksjon2Avsnitt {
+    font-size: 1.25rem;
+    margin: -5% 10%;
+    line-height: 33px;
 }
 
 .dameHundBilde {
