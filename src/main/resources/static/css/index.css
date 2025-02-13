@@ -154,6 +154,11 @@ header {
     border-radius: 50px;
 }
 
+/* For ipads: */
+@media (min-width: 520px) {
+    
+}
+
 /* For tablets/desktops: */
 @media (min-width: 1300px) {
     .enterNavigasjon {
