@@ -1,6 +1,6 @@
 # EDEL-R: Enkel Deling, Elektrisk Leie (Reimagined)
 
-![EDEL](/src/main/resources/static/videos/EDEL-Video.gif)
+![EDEL](/src/main/resources/static/videos/EdelShowcase.gif)
 
 📌 Originalt et HTML5/CSS3/Javascript prosjekt laget av meg og seks andre studenter på første semester av dataingeniør/informatikk-studiet.
 Det var en del av faget "ING102 - Innføring i ingeniørfaglig yrkesutøvelse og arbeidsmetoder".
