@@ -9,4 +9,4 @@ Jeg tenkte å prøve å omforme prosjektet med Java og Spring Boot, samt rette o
 📌 Forbedring med tanke på responsivt design. Før tok ikke prosjektet i betrakning ulike skjermstørrelser, men dette er fikset med media queries.
 Videre forbedring i accessibility med endring av kontrast av farger, osv. Man skal ikke få noen feil i en WAVE test.
 
-📌 Ikke helt ferdig selvfølgelig, men på vei.
+📌 Ikke ferdig selvfølgelig. Mangler mer innhold på hovedsiden, samt på de andre lenkene.
